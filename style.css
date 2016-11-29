@@ -1,0 +1,104 @@
+.a_form {
+	float: left;
+	width: 45%;
+	height: 182px;
+	border: 2px solid #000000;
+	/* AN: Commented out the margin
+	 * The reason why your two <div> were not next to each other
+	 * was because they each had a width of 50% PLUS 10px.
+	 * Therefore, it was impossible for them to both fit on one line.
+	 * By removing the margins, both of the <div> are each
+	 * 50% width and can comfortably fit next to each other
+	*/
+	margin-left: 20px;
+	/*margin-right: 20px;*/
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.global {
+	text-align: center;
+
+}
+
+.p{
+   
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse; 
+    width: 100%;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 6px;
+    width: 300px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+
+
+#map {
+    width: 800px; 
+    height: 300px; 
+    margin: 0 auto;
+    
+    
+    /*height: 100%;*/
+    /*padding-left: 20px;*/
+}
+
+
+h1 {
+    clear: both;
+    /*color: blue;
+    padding: 30px;*/
+}
+
+h1#review {
+	/*color: blue;*/
+    font-family: verdana;
+    text-align: center;
+}
+
+#image {
+	float: center;
+	height: 150px;
+	width:  200px; 
+	margin: 0 auto;
+	
+}
+
+.form-control {
+
+	height: 100px;
+	max-width: 400px;
+	margin: 50px auto;
+}
+
+#icons {
+    
+
+}
+
+/*display:block;
+  box-sizing: padding-box;
+  overflow:hidden;
+
+  padding:10px;
+  width:250px;
+  font-size:14px;
+  margin:50px auto;
+  border-radius:6px;
+  box-shadow:2px 2px 8px rgba(0,0,0,.3);
+  border:0;
+}*/
